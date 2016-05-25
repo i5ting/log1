@@ -17,8 +17,8 @@
     "type": "git",
     "url": "git+https://github.com/i5ting/log1.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "i5ting",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/i5ting/log1/issues"
   },
