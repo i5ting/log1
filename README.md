@@ -27,6 +27,20 @@ export NODE_ENV=production && node test.js
 
 otherwise，print log
 
+## global log disable
+
+```
+require('log1')('xxx', true)
+
+log('global log')
+```
+
+this will not print any log
+
+```
+export NODE_ENV=production && node test/log-disable.js
+```
+
 ## use debug module
 
 https://github.com/visionmedia/debug

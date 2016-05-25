@@ -10,6 +10,11 @@ test('log()', function * (t) {
   t.regex(result, /(global)/);
 });
 
+test('log-disable()', function * (t) {
+  var result = yield exec('npm run log-disable')
+  // log(result)
+  t.false(result === null);
+});
 
 test('env-log()', function * (t) {
   var result = yield exec('npm run envlog')
