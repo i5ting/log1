@@ -1,4 +1,6 @@
-# log1
+# log1 = log for global、env or debug
+
+[![npm version](https://badge.fury.io/js/log1.svg)](http://badge.fury.io/js/log1)
 
 ## global log
 
