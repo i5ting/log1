@@ -27,5 +27,8 @@
   "devDependencies": {
     "ava": "^0.15.0",
     "co-exec": "^1.1.0"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
   }
 }

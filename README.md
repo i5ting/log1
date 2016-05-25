@@ -1,7 +1,7 @@
 # log1 = log for global、env or debug
 
 
-[![Build](https://travis-ci.org/i5ting/log1.svg?branch=master)](https://travis-ci.org/i5ting/log1) | [![npm version](https://badge.fury.io/js/log1.svg)](http://badge.fury.io/js/log1)
+[![Build](https://travis-ci.org/i5ting/log1.svg?branch=master)](https://travis-ci.org/i5ting/log1) [![npm version](https://badge.fury.io/js/log1.svg)](http://badge.fury.io/js/log1)
 
 ## global log
 
