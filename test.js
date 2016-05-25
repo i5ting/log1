@@ -7,14 +7,14 @@ var exec = require('co-exec');
 test('log()', function * (t) {
   var result = yield exec('npm run log')
   // log(result)
-  t.true(result.trim().match(/(glo)/).length > 1);
+  t.regex(result, /(global)/);
 });
 
 
 test('env-log()', function * (t) {
   var result = yield exec('npm run envlog')
   // log(result)
-  t.true(result.trim().match(/(global\s+log\s+with\s+env)/).length > 1);
+  t.regex(result, /(global\s+log\s+with\s+env)/);
 });
 
 
