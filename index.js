@@ -1,4 +1,4 @@
-global.log = console.log
+global_log()
 
 module.exports = function (disable, name) {
   // for debug
@@ -14,5 +14,13 @@ module.exports = function (disable, name) {
 }
 
 function _reset_log () {
-  global.log = function(t){}
+  for(var k in console){ 
+    global[k] = function(t){}
+  }
+}
+
+function global_log () {
+  for(var k in console){ 
+    global[k] = console[k]
+  }
 }

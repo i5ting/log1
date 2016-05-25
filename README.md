@@ -3,6 +3,20 @@
 
 [![Build](https://travis-ci.org/i5ting/log1.svg?branch=master)](https://travis-ci.org/i5ting/log1) [![npm version](https://badge.fury.io/js/log1.svg)](http://badge.fury.io/js/log1)
 
+
+make all console.xx to global
+
+- log
+- info
+- warn
+- error
+- dir
+- time
+- timeEnd
+- trace
+- assert
+- debug(optional https://github.com/visionmedia/debug)
+
 ## global log
 
 ```
