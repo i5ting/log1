@@ -30,7 +30,7 @@ otherwise，print log
 ## global log disable
 
 ```
-require('log1')('xxx', true)
+require('log1')(true)
 
 log('global log')
 ```
@@ -65,7 +65,7 @@ log1 booting My App +0ms
 ### use custom namespace
 
 ```
-require('log1')('namespace')
+require('log1')(true, 'namespace')
 
 var name = 'My App'
 

@@ -1,4 +1,4 @@
-require('..')('namespace')
+require('..')(true, 'namespace')
 
 var name = 'My App'
 

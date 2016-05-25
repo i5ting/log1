@@ -1,3 +1,3 @@
-require('..')('aaa', true)
+require('..')(true)
 
 log('global log')
