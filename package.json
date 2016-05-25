@@ -1,0 +1,26 @@
+{
+  "name": "log1",
+  "version": "1.0.0",
+  "description": "log for global、env or debug",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run log && npm run envlog && npm run envlog-no-output &&  npm run custom &&  npm run custom-no-output &&  npm run debug &&  npm run debug-no-output",
+    "log":"export DEBUG=namespace && node test/log.js",
+    "envlog":"export NODE_ENV=test && node test/env-log.js",
+    "envlog-no-output":"export NODE_ENV=production && node test/env-log.js",
+    "custom":"export DEBUG=namespace && node test/custom-debug.js",
+    "custom-no-output":"export DEBUG=namespace2 && node test/custom-debug.js",
+    "debug":"export DEBUG=log1 && node test/debug.js",
+    "debug-no-output":"export DEBUG=log2 && node test/debug.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/log1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/log1/issues"
+  },
+  "homepage": "https://github.com/i5ting/log1#readme"
+}
